@@ -1,0 +1,16 @@
+UNIT
+- Junit
+
+HTTP
+- Mockito
+- Json converter
+
+UI
+- Selenide
+- Selenium
+
+UTIL
+- Swagger
+- Allure
+- Jenkins
+- Docker

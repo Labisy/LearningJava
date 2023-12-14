@@ -1,0 +1,3 @@
+rootProject.name = 'LearningJava'
+include 'junit'
+
