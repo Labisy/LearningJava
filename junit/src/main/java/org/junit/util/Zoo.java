@@ -1,4 +1,4 @@
-package org.junit;
+package org.junit.util;
 
 
 import org.junit.enity.Animal;

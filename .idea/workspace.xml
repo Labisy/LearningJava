@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd4cac5-4d62-4118-9088-85bce3f26fb3" name="Changes" comment="add junit module" />
+    <list default="true" id="ccd4cac5-4d62-4118-9088-85bce3f26fb3" name="Changes" comment="add junit module">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/1545d4ac40556f86534652701513ffeaba1f74a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1fa52909f68f5348470ae342260f296026f515de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47dd92f9ba2d32ebfd8f165f0e7615f4984c59fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/57edad902f5989ab0aa6278b9529af608ea46379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78a23a175369f24d4333325f295766d6a501fc0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c66d4be8b8d14ff1bdfafa6b3a94fc2b307b11e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4662c642e7d40b4c927d76945613c58479b3865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b18d1c5efc699c3c74d1a7cabb489ae6e49d7e57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d45250b6b0479e3ea12589ef66d38c92e2463b06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9bc207318970de1becaa4c3a11db73bfc81c001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fca0d70b7a1a2cf4a7d6b67564ec9ec3e3e49636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/5/1545d4ac40556f86534652701513ffeaba1f74a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/f/1fa52909f68f5348470ae342260f296026f515de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/47dd92f9ba2d32ebfd8f165f0e7615f4984c59fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/7/57edad902f5989ab0aa6278b9529af608ea46379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/8/78a23a175369f24d4333325f295766d6a501fc0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c66d4be8b8d14ff1bdfafa6b3a94fc2b307b11e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/4/a4662c642e7d40b4c927d76945613c58479b3865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/1/b18d1c5efc699c3c74d1a7cabb489ae6e49d7e57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/4/d45250b6b0479e3ea12589ef66d38c92e2463b06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e9bc207318970de1becaa4c3a11db73bfc81c001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fca0d70b7a1a2cf4a7d6b67564ec9ec3e3e49636" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/src/main/java/org/junit/LESSON.md" beforeDir="false" afterPath="$PROJECT_DIR$/junit/src/main/java/org/junit/LESSON.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit/src/main/java/org/junit/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit/src/main/java/org/junit/util/Zoo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +78,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Labisy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f591a800-2554-4e4c-b979-f4014336bd0f" />
+        <option name="url" value="https://github.com/Labisy/LearningJava.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,32 +103,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.AnimalTesting.isRightRemove.executor": "Run",
-    "Gradle.LearningJava [:Zoo.main()].executor": "Run",
-    "Gradle.LearningJava [clean].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/stepc/IdeaProjects/LearningJava/junit/src/main/java/org/junit/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.AnimalTesting.isRightRemove.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LearningJava [:Zoo.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LearningJava [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/stepc/IdeaProjects/LearningJava/junit/src/main/java/org/junit/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stepc\IdeaProjects\LearningJava" />
@@ -269,7 +311,8 @@
       <workItem from="1702406230314" duration="299000" />
       <workItem from="1702406617722" duration="676000" />
       <workItem from="1702492054914" duration="601000" />
-      <workItem from="1702546088909" duration="1661000" />
+      <workItem from="1702546088909" duration="4138000" />
+      <workItem from="1702557816546" duration="5420000" />
     </task>
     <task id="LOCAL-00001" summary="add gitIgnore">
       <option name="closed" value="true" />
@@ -295,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702547741150</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add junit module">
+      <option name="closed" value="true" />
+      <created>1702548478949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702548478949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
