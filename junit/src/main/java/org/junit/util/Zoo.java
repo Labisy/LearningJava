@@ -2,6 +2,7 @@ package org.junit.util;
 
 
 import org.junit.enity.Animal;
+import org.junit.types.AnimalType;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -21,11 +22,15 @@ public class Zoo {
     private void init() {
         animals = new ArrayList<>(
                 List.of(
-                        new Animal("Жираф", 2),
-                        new Animal("Обезьяна", 11),
-                        new Animal("Бегемот", 5),
-                        new Animal("Лев", 1),
-                        new Animal("Тигр", 7)
+                        new Animal("Толик", 2, AnimalType.GIRAFFE),
+                        new Animal("Митя", 6, AnimalType.GIRAFFE),
+                        new Animal("Молли", 11, AnimalType.MONKEY),
+                        new Animal("Бил", 5, AnimalType.HIPPOPOTAMUS),
+                        new Animal("Соул", 4, AnimalType.HIPPOPOTAMUS),
+                        new Animal("Лео", 1, AnimalType.LION),
+                        new Animal("Мартин", 3, AnimalType.LION),
+                        new Animal("Лиза", 5, AnimalType.LION),
+                        new Animal("Тим", 7, AnimalType.TIGER)
                 )
         );
     }
@@ -51,13 +56,27 @@ public class Zoo {
     /**
      * Получить животное по названию
      * @param name - название животного
-     * @return - Искомое животное
+     * @return - искомое животное
      */
     public Animal getAnimalWithName(final String name) {
         return animals.stream()
-                .filter(e -> e.getName().equals(name))
+                .filter(e -> e.getName().equalsIgnoreCase(name))
                 .findFirst()
                 .orElseThrow(IllegalArgumentException::new);
+    }
+
+    /**
+     * Получить животных по соответствующему типу
+     * @param type - тип животного из enum
+     * @return - список животных с соответствующим типом
+     */
+    public List<Animal> getAnimalsByType(final AnimalType type) {
+        return switch (type) {
+            case LION, TIGER, HIPPOPOTAMUS, MONKEY, GIRAFFE
+                    -> animals.stream()
+                    .filter(e -> e.getType() == type)
+                    .toList();
+        };
     }
 
     /**

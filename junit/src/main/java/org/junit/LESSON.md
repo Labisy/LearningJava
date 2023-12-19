@@ -22,7 +22,7 @@
 
  ```java
     @ParameterizedTest
-    @ValueSource(ints = { 1, 2, 3 })
+    @ValueSource(ints = {1, 2, 3})
     void testValueSource(int argument) {
         // Теперь при запуске теста в 'argument' будут передаваться значение от 1 до 3.
     }
@@ -40,7 +40,7 @@
     @ParameterizedTest
     @EmptySource
     void testEmptySource(String argument) {
-        assertTrue(StringUtils.isEmpty(argument));
+        assertTrue(StringUtils.isBlank(argument));
     }
 ```
 #### @NullAndEmptySource - сочетает в себе функциональность @NullSource и @EmptySource.
@@ -48,7 +48,7 @@
     @ParameterizedTest
     @NullAndEmptySource
     void testNullAndEmptySource(String argument) {
-        assertTrue(StringUtils.isEmpty(argument));
+        assertTrue(StringUtils.isBlank(argument));
     }
 ```
 #### @EnumSource - удобный способ для использования enum констант.
@@ -150,6 +150,7 @@ class AnimalArgumentsProvider implements ArgumentsProvider {
 > #### Добавление нового авто - в качестве хранилища внутри класса `Dealership` использовать `Map` в которой хранить `Car` и `count`,
 > #### Продажа,
 > #### Поиск авто по названию,
-> #### Получение списка автомобилей,
+> #### Получение списка всех автомобилей,
+> #### Найти авто, определенной марки,
 > #### Расчет скидки для постоянных покупателей в 10%
 > #### Протестировать полученные методы.
