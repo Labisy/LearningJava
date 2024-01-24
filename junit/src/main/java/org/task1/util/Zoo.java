@@ -1,8 +1,8 @@
-package org.junit.util;
+package org.task1.util;
 
 
-import org.junit.enity.Animal;
-import org.junit.types.AnimalType;
+import org.task1.enity.Animal;
+import org.task1.types.AnimalType;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -37,6 +37,7 @@ public class Zoo {
 
     /**
      * Добавление нового животного
+     *
      * @param value - животное, которое необходимо добавить
      */
     public void addAnimal(final Animal value) {
@@ -46,6 +47,7 @@ public class Zoo {
 
     /**
      * Удаление животного
+     *
      * @param value - животное, которое необходимо удалить
      */
     public void removeAnimal(final Animal value) {
@@ -53,8 +55,17 @@ public class Zoo {
         else throw new IllegalArgumentException(String.format("Такого животного: '%s' не существует", value));
     }
 
+
+    /**
+     * @return всех животных
+     */
+    public List<Animal> getAllAnimals() {
+        return animals;
+    }
+
     /**
      * Получить животное по названию
+     *
      * @param name - название животного
      * @return - искомое животное
      */
@@ -67,13 +78,13 @@ public class Zoo {
 
     /**
      * Получить животных по соответствующему типу
+     *
      * @param type - тип животного из enum
      * @return - список животных с соответствующим типом
      */
     public List<Animal> getAnimalsByType(final AnimalType type) {
         return switch (type) {
-            case LION, TIGER, HIPPOPOTAMUS, MONKEY, GIRAFFE
-                    -> animals.stream()
+            case LION, TIGER, HIPPOPOTAMUS, MONKEY, GIRAFFE -> animals.stream()
                     .filter(e -> e.getType() == type)
                     .toList();
         };
@@ -81,6 +92,7 @@ public class Zoo {
 
     /**
      * Поиск самого старого животного
+     *
      * @return - вернуть самое старое животное, первое, какое попадется
      */
     public Animal oldestAnimal() {
@@ -91,6 +103,7 @@ public class Zoo {
 
     /**
      * Поиск животное с самым длинным именем
+     *
      * @return - возвращаем животное с самым длинным именем
      */
     public Animal longestNameAnimal() {
@@ -101,6 +114,7 @@ public class Zoo {
 
     /**
      * Сортировка по возрасту
+     *
      * @return - отсортированный список по возрастанию возраста
      */
     public List<Animal> sortAnimalByAge() {
@@ -111,6 +125,7 @@ public class Zoo {
 
     /**
      * Сортировка по имени
+     *
      * @return - отсортированный список по алфавиту
      */
     public List<Animal> sortAnimalByName() {
@@ -121,6 +136,7 @@ public class Zoo {
 
     /**
      * Проверка существует ли животное в списке
+     *
      * @param value - Животное, которое необходимо проверить
      * @return - возвращается true/false в соответствии с существованием
      */

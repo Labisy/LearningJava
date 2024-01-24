@@ -1,4 +1,4 @@
-package org.junit.types;
+package org.task1.types;
 
 public enum AnimalType {
     MONKEY,

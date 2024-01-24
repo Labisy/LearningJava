@@ -1,6 +1,6 @@
-package org.junit.enity;
+package org.task1.enity;
 
-import org.junit.types.AnimalType;
+import org.task1.types.AnimalType;
 
 import java.util.Objects;
 
