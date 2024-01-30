@@ -5,7 +5,6 @@ import org.task2.user.User;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Users {
 
@@ -20,7 +19,11 @@ public class Users {
      * @return - этот метод который должен вернуть всех пользователей.
      */
     public static List<User> getAllUsers() {
-        return new ArrayList<>(User.getAllUsers().values());
+        try {
+            return new ArrayList<>(User.getAllUsers().values());
+        } catch (Exception e) {
+            return new ArrayList<>();
+        }
     }
 
     /**
@@ -28,7 +31,8 @@ public class Users {
      * @return - этот метод который должен вернуть всех пользователей с полом sex.
      */
     public static List<User> getAllUsers(Sex sex) {
-        return User.getAllUsers().values().stream()
+        if (isSexNull(sex)) return new ArrayList<>();
+        return getAllUsers().stream()
                 .filter(user -> user.getSex() == sex)
                 .toList();
     }
@@ -45,13 +49,8 @@ public class Users {
      * @return - этот метод который должен вернуть всех пользователей с полом sex.
      */
     public static int getHowManyUsers(Sex sex) {
+        if (isSexNull(sex)) return 0;
         return getAllUsers(sex).size();
-    }
-
-    public static void main(String[] args) {
-        User user = new User("", 2, Sex.MALE);
-        User user2 = new User("ff", 2, Sex.MALE);
-        System.out.println(getAllAgeUsers(Sex.FEMALE));
     }
 
     /**
@@ -68,6 +67,7 @@ public class Users {
      * @return - возвращает сумму всех лет пользователей.
      */
     public static int getAllAgeUsers(Sex sex) {
+        if (isSexNull(sex)) return 0;
         return (int) getAllUsers(sex).stream()
                 .mapToInt(User::getAge)
                 .count();
@@ -85,6 +85,11 @@ public class Users {
      * @return - - возвращает средний возраст среди пользователей с полом sex.
      */
     public static int getAverageAgeOfAllUsers(Sex sex) {
+        if (isSexNull(sex)) return 0;
         return getAllAgeUsers(sex) / getHowManyUsers(sex);
+    }
+
+    private static boolean isSexNull(Sex sex) {
+        return sex == null;
     }
 }
