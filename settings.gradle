@@ -1,5 +1,9 @@
 rootProject.name = 'LearningJava'
-include 'junit',
-        'stream',
-        'base'
+include 'core',
+        'core:base',
+        'core:stream',
+        'core:collections'
+
+include 'testing',
+        'testing:junit'
 
